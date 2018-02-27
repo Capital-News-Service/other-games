@@ -270,8 +270,8 @@
 
     @media screen and (min-width: 980px){
       #aboutpage {
-        width: 800px;
-
+        width: 90%  ;
+        font-size: 2vw;
     }
 
     .textbox {
@@ -313,6 +313,14 @@
         position: absolute;
         display: block;
         color: white;
+      }
+
+      .btn {
+        width: auto;
+      }
+
+      body {
+        font-size: 10vw;
       }
 
       /**#vf {
