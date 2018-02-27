@@ -10,43 +10,93 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="othergames.css">
-  
+
 </head>
 <body>
   <!-- Swiper -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
+
+      <!-- SLIDE 1/intro slide -->
       <div class="swiper-slide" id="front">
-        <h1>THE OTHER GAMES</h1>
-        <p id="intro">Skiing, gymnastics and swimming are all iconic Olympic games. ViewFinder profiled some sports not recognized by the olympics.
+        <h1><center>THE <font color="#fae257">OTHER</font> GAMES</h1>
+        <p id="date">Feb. 23, 2018</p>
+        <p id="intro">
+        Skiing, gymnastics and swimming are all iconic Olympic games. ViewFinder profiled some sports not recognized by the olympics.
         From marbles to aerial yoga, there are a range of sports played in Maryland.
         </p>
         <p id="swipe">Swipe Left</p>
       </div>
+
+        <!-- SLIDE 2/broomball -->
       <div class="swiper-slide" id="slide2">
-        <div id="broombg"> </div>
-          <h2 id="broom">BROOMBALL</h2>
-          <p id="bball">Poehrif  ofieroi  eorifhier ohergioe r  ergiergnio er ferg eior ger goeirghierg
+        <div id="textbox">
+          <h2>BROOMBALL</h2>
+          <p id="description">
+          <b>By John Doe and Jane Smith</b><br>
+          Poehrif  ofieroi  eorifhier ohergioe r  ergiergnio er ferg eior ger goeirghierg
           eri gerigheirog ieorg ergho Poehrif  ofieroi  eorifhier ohergioe r  ergiergnio er ferg
-          eior ger goeirghierg eri gerigheirog ieorg ergho 
+          eior ger goeirghierg eri gerigheirog ieorg ergho
           </p>
-          <button type="button" class="btn btn-info btn-lg" id="slide1button" data-toggle="modal" data-target="#myModal">Watch Video</button>
+          <button type="button" class="btn btn-info btn-lg" id="slide2button" data-toggle="modal" data-target="#myModal">Watch Video</button>
+        </div>
       </div>
-      <div class="swiper-slide" id="slide3">Slide 3
-      <button type="button" class="btn btn-info btn-lg" id="slide2button" data-toggle="modal" data-target="#myModal2">Modal 2</button>
+
+        <!-- SLIDE 3/aerial yoga -->
+      <div class="swiper-slide" id="slide3">
+          <div id="textbox">
+          <h2>AERIAL YOGA</h2>
+          <p id="description"> <b>By John Doe and Jane Smith</b><br>
+        Poehrif  ofieroi  eorifhier ohergioe r  ergiergnio er ferg eior ger goeirghierg
+        eri gerigheirog ieorg ergho Poehrif  ofieroi  eorifhier ohergioe r  ergiergnio er ferg
+        eior ger goeirghierg eri gerigheirog ieorg ergho
+        </p>
+
+      <button type="button" class="btn btn-info btn-lg" id="slide3button" data-toggle="modal" data-target="#myModal2">Watch Video</button>
       </div>
+      </div>
+
+        <!-- SLIDE 4 -->
       <div class="swiper-slide" id="slide4">Slide 4
-      <button type="button" class="btn btn-info btn-lg" id="slide2button" data-toggle="modal" data-target="#myModal3">Modal 3</button>
+      <button type="button" class="btn btn-info btn-lg" id="slide4button" data-toggle="modal" data-target="#myModal3">Modal 3</button>
       </div>
+
+        <!-- SLIDE 5 -->
       <div class="swiper-slide" id="slide5">Slide 5
-      <button type="button" class="btn btn-info btn-lg" id="slide2button" data-toggle="modal" data-target="#myModal4">Modal 4</button>
+      <button type="button" class="btn btn-info btn-lg" id="slide5button" data-toggle="modal" data-target="#myModal4">Modal 4</button>
       </div>
+
+        <!-- SLIDE 6 -->
       <div class="swiper-slide" id="slide6">Slide 6
-      <button type="button" class="btn btn-info btn-lg" id="slide2button" data-toggle="modal" data-target="#myModal5">Modal 5</button>
+      <button type="button" class="btn btn-info btn-lg" id="slide6button" data-toggle="modal" data-target="#myModal5">Modal 5</button>
       </div>
+
+        <!-- SLIDE 7 -->
       <div class="swiper-slide" id="slide7">Slide 7</div>
+
+
+        <!-- SLIDE 8/END SLIDE -->
       <div class="swiper-slide" id="slide8">Slide 8
-        <img src="VFblk2.png" alt="ViewFinder" id="vf">
+        <font color="#ffffff"><center>
+          <h3>Presented by</3><br>
+          <img src="cns-vf-clear.png" border="0" class="responsive-image" alt="The CNS and ViewFinder logos" id="vf">
+        <h3>ABOUT</h3>
+        <p id="aboutpage">[Description of the Other Games]</p>
+
+        <h3>CREDITS</h3>
+        <p id="aboutpage">For two decades, the <a href="https://merrill.umd.edu/" style="color: #fae257">Philip Merrill College of Journalism’s</a>
+        <a href="https://merrill.umd.edu/tag/viewfinder/" style="color: #fae257">ViewFinder</a> team and
+        <a href="http://cnsmaryland.org/home" style="color: #fae257">Capital News Service</a>
+        have provided deeply reported, award-winning coverage of issues importance to Marylanders and people around the world.</p>
+
+        <h3>REPORTERS AND VIDEOGRAPHERS</h3>
+        <p id="aboutpage">John Doe, Jane Smith, …, …, …, …, …, …,</p>
+
+        <h3>DESIGNERS/DEVELOPERS</h3>
+        <p id="aboutpage">Sarah Fielder and Uyen Nguyen</p></font></center></p>
+        <!-- END OF SLIDES-->
+
+
       </div>
       <div class="swiper-slide" id="slide9">Slide 9</div>
       <div class="swiper-slide" id="slide10">Slide 10</div>
@@ -54,47 +104,50 @@
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
   </div>
-  
+
     <!-- Modal 1 -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
-    
+
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
+          <h4 class="modal-title">Broomball</h4>
         </div>
         <div class="modal-body">
-          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/_Z505ga9NCk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+          <div class="video-container"><p><iframe width="853" height="480"  src="https://www.youtube.com/embed/Hjh6ykg5-AE?rel=0"
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div></p>
         </div>
+
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Back</button>
         </div>
       </div>
-      
+
     </div>
   </div>
   <!-- end modal 1 -->
-  
+
       <!-- Modal 2 -->
   <div class="modal fade" id="myModal2" role="dialog">
     <div class="modal-dialog">
-    
+
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal 2 Header</h4>
+          <h4 class="modal-title">Aerial Yoga</h4>
         </div>
         <div class="modal-body">
-          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/_Z505ga9NCk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+          <div class="video-container"><p><iframe width="853" height="480"  src="https://www.youtube.com/embed/Hjh6ykg5-AE?rel=0"
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div></p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Back</button>
         </div>
       </div>
-      
+
     </div>
   </div>
   <!-- end modal 2 -->
@@ -102,7 +155,7 @@
         <!-- Modal 3 -->
   <div class="modal fade" id="myModal3" role="dialog">
     <div class="modal-dialog">
-    
+
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
@@ -116,15 +169,15 @@
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
-      
+
     </div>
   </div>
   <!-- end modal 3 -->
-  
+
         <!-- Modal 4 -->
   <div class="modal fade" id="myModal4" role="dialog">
     <div class="modal-dialog">
-    
+
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
@@ -138,16 +191,16 @@
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
-      
+
     </div>
   </div>
   <!-- end modal 4 -->
-  
+
   <!-- Swiper JS -->
   <script src="../dist/js/swiper.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
+
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper('.swiper-container', {
