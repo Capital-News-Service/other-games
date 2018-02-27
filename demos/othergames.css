@@ -315,6 +315,10 @@
         color: white;
       }
 
+      .description, #intro, #date {
+        font-size: 18px;
+      }
+
       .btn {
         width: auto;
       }
@@ -322,6 +326,10 @@
       body {
         font-size: 3vw;
         line-height: 25px;
+      }
+
+      #slide8 p {
+        font-size: 15px
       }
 
       /**#vf {
