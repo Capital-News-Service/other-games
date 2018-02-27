@@ -268,7 +268,7 @@
           z-index: 5;
           display: block;
           color: rgba(255,255,255, 1);
-          text-align: left;
+          text-align: center;
           opacity: 1;
           font-size: 3vw;
             }
@@ -345,10 +345,6 @@
         font-size: 18px;
       }
 
-      .btn {
-        width: auto;
-      }
-
       body {
         font-size: 3vw;
         line-height: 25px;
@@ -362,4 +358,11 @@
         margin-top: 5%;
         wdith:
       }**/
+    }
+
+    .btn {
+      width: auto;
+      display: relative;
+      margin: 0 auto;
+      text-align: center;
     }
