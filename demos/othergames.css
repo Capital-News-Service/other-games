@@ -1,0 +1,280 @@
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      /*text-align: center;
+      font-size: 25px;
+      */
+      background: #fff;
+
+      /* Center slide text vertically
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;*/
+    }
+
+    h1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      /*font-size: 75px;*/
+      font-family: 'Montserrat', sans-serif;
+      text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+      color: #ffffff;
+      font-size: 11vw;
+    }
+
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+        top: -15px;
+        padding: 10px;
+        font-size: 9vw;
+        /*width: 70%;
+        height: 30%;*/
+        z-index: 3;
+        position: absolute;
+        display: block;
+    }
+
+    #intro {
+      margin: auto;
+      width: 75%;
+      text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+      color: #ffffff;
+      border-radius: 25px;
+      text-align: center;
+      font-size: 2.7vw;
+    }
+
+    #date {
+      margin: auto;
+      bottom: 0;
+      padding: 7px;
+      width: 75%;
+      padding: 13px;
+      text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+      color: #ffffff;
+      font-weight: bold;
+      border-radius: 25px;
+      text-align: left;
+    }
+
+    #swipe {
+      position: fixed;
+      bottom: 20px;
+      right: 0;
+      padding-right: 15px;
+      font-size: 3.5vw;
+    }
+
+    #headline {
+      padding: 0px;
+      position: relative;
+      color: rgba(255,255,255, 1);
+      text-align: center;
+
+      /*
+      text-align: left;*/
+    }
+
+
+
+
+    #slide2 {
+      background-image: url("Broom2.jpg");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #slide2button {
+      margin-top: 10px;
+      margin-left: 30px;
+      background-color: #14235e;
+      border: solid #14235e;
+    }
+
+
+    #slide3 {
+      background-image: url("yoga.jpeg");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #slide3button {
+      margin-top: 10px;
+      margin-left: 30px;
+      background-color: #aeb07e;
+      border: solid #aeb07e;
+    }
+
+
+    .modal-header {
+      text-align: center;
+    }
+
+    .swiper-slide {
+      background-color: #000000;
+    }
+
+    .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+    .responsive-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+
+    @media (min-width: 1000px) {
+      .responsive-image {
+        width: 1000px;
+      }
+    }
+
+   #front {
+      background: url(Broomball-dark.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    /**margin-top: 25%;**/
+    background-color: #000000;
+    }
+
+    /*#vf {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+      margin-top: -25%;
+      background: #000000;
+    }*/
+
+    body {
+      background-color: #000000;
+    }
+
+    button, h2, #description {
+      padding: 5px;
+      position: relative;
+      z-index: 5;
+      display: block;
+      color: rgba(255,255,255, 1);
+      text-align: left;
+      opacity: 1;
+        }
+
+    #description {
+          padding: 5px;
+          position: relative;
+          z-index: 5;
+          display: block;
+          color: rgba(255,255,255, 1);
+          text-align: left;
+          opacity: 1;
+          font-size: 3vw;
+            }
+
+    h3 {
+      color: #ffffff;
+      text-align: center;
+      font-size: 2.5vw;
+    }
+
+    #aboutpage {
+      padding-right: 10%;
+      padding-left: 10%;
+      position: relative;
+      display: block;
+      color: #fff;
+      text-align: center;
+      font-size: 3vw
+
+    @media screen and (min-width: 980px){
+      #aboutpage {
+        width: 800px;
+
+    }
+
+    #textbox {
+      background-color: rgba(85,85,90,.75);
+      background: rgba(0,0,0,0.45);
+      padding: 10px;
+      margin-top: 0px;
+      width: 70%;
+      /*height: 30%;*/
+      z-index: 3;
+      position: absolute;
+      display: block;
+    }
+
+
+    @media screen and (min-width: 980px) {
+     #front {
+        background: url(Broomball-dark.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        margin-top: 0%;
+        background-color: #000000;
+        background-attachment: inherit;
+      }
+
+      /**#vf {
+        margin-top: 5%;
+        wdith:
+      }**/
+
+    }
