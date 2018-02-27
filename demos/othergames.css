@@ -98,7 +98,7 @@
       font-size: 3.5vw;
     }
 
-    #headline {
+    .headline {
       padding: 0px;
       position: relative;
       color: rgba(255,255,255, 1);
@@ -203,7 +203,7 @@
       background-color: #000000;
     }
 
-    button, h2, #description {
+    button, h2, .description {
       padding: 5px;
       position: relative;
       z-index: 5;
@@ -213,7 +213,7 @@
       opacity: 1;
         }
 
-    #description {
+    .description {
           padding: 5px;
           position: relative;
           z-index: 5;
@@ -245,7 +245,7 @@
 
     }
 
-    #textbox {
+    .textbox {
       background-color: rgba(85,85,90,.75);
       background: rgba(0,0,0,0.45);
       padding: 10px;
