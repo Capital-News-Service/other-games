@@ -87,7 +87,7 @@
       color: #ffffff;
       font-weight: bold;
       border-radius: 25px;
-      text-align: left;
+      text-align: center;
     }
 
     #swipe {
@@ -139,6 +139,34 @@
       margin-left: 30px;
       background-color: #aeb07e;
       border: solid #aeb07e;
+    }
+
+    #slide4 {
+      background-image: url("BellyDancingBelt.jpg");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #slide4button {
+      margin-top: 10px;
+      margin-left: 30px;
+      background-color: #ea513f;
+      border: solid #ea513f;
+    }
+
+    #slide5 {
+      background-image: url("Marbles1.jpg");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #slide5button {
+      margin-top: 10px;
+      margin-left: 30px;
+      background-color: #d9ce5a;
+      border: solid #d9ce5a;
     }
 
 
@@ -238,6 +266,7 @@
       color: #fff;
       text-align: center;
       font-size: 3vw
+    }
 
     @media screen and (min-width: 980px){
       #aboutpage {
@@ -258,8 +287,8 @@
       color: white;
     }
 
-
-    @media screen and (min-width: 980px) {
+  }
+    @media screen and (max-width: 980px) {
      #front {
         background: url(Broomball-dark.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -273,9 +302,21 @@
         background-attachment: inherit;
       }
 
+      .textbox {
+        background-color: rgba(85,85,90,.75);
+        background: rgba(0,0,0,0.45);
+        padding: 10px;
+        margin-top: 0px;
+        width: 100%;*/
+        /*height: 30%;*/
+        z-index: 3;
+        position: absolute;
+        display: block;
+        color: white;
+      }
+
       /**#vf {
         margin-top: 5%;
         wdith:
       }**/
-
     }
