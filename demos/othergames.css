@@ -67,6 +67,7 @@
         display: block;
     }
 
+
     #intro {
       margin: auto;
       width: 75%;
@@ -88,6 +89,11 @@
       font-weight: bold;
       border-radius: 25px;
       text-align: center;
+      font-size: 1.5
+
+
+
+      vw;
     }
 
     #swipe {
@@ -96,6 +102,7 @@
       right: 0;
       padding-right: 15px;
       font-size: 3.5vw;
+      color: #ffffff;
     }
 
     .headline {
@@ -122,8 +129,12 @@
     #slide2button {
       margin-top: 10px;
       margin-left: 30px;
-      background-color: #14235e;
-      border: solid #14235e;
+      background-color: #2f45b4;
+      border: solid #2f45b4;
+    }
+
+    #broomball {
+      text-shadow: 2px 2px 2px #2f45b4;
     }
 
 
@@ -141,6 +152,10 @@
       border: solid #aeb07e;
     }
 
+    #yoga {
+      text-shadow: 2px 2px 2px #aeb07e;
+    }
+
     #slide4 {
       background-image: url("BellyDancingBelt.jpg");
       height: 100%;
@@ -153,6 +168,10 @@
       margin-left: 30px;
       background-color: #ea513f;
       border: solid #ea513f;
+    }
+
+    #belly {
+      text-shadow: 2px 2px 2px #ea513f;
     }
 
     #slide5 {
@@ -169,6 +188,9 @@
       border: solid #d9ce5a;
     }
 
+    #marbles {
+      text-shadow: 2px 2px 2px #d9ce5a;
+    }
 
     .modal-header {
       text-align: center;
@@ -207,7 +229,7 @@
     }
 
    #front {
-      background: url(Broomball-dark.jpg) no-repeat center center fixed;
+      background: url(yoga2.gif) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -290,7 +312,7 @@
   }
     @media screen and (max-width: 980px) {
      #front {
-        background: url(Broomball-dark.jpg) no-repeat center center fixed;
+        background: url(yoga2.gif) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
