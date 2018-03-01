@@ -128,12 +128,12 @@
     #slide2button {
       margin-top: 10px;
       margin-left: 30px;
-      background-color: #2f45b4;
-      border: solid #2f45b4;
+      background-color: #e96942;
+      border: solid #e96942;
     }
 
     #broomball {
-      text-shadow: 2px 2px 2px #2f45b4;
+      text-shadow: 2px 2px 2px #e96942;
     }
 
 
@@ -183,12 +183,48 @@
     #slide5button {
       margin-top: 10px;
       margin-left: 30px;
-      background-color: #d9ce5a;
-      border: solid #d9ce5a;
+      background-color: #394a98;
+      border: solid #394a98;
     }
 
     #marbles {
-      text-shadow: 2px 2px 2px #d9ce5a;
+      text-shadow: 2px 2px 2px #394a98;
+    }
+
+    #slide6 {
+      background-image: url("bocce3.gif");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #slide6button {
+      margin-top: 10px;
+      margin-left: 30px;
+      background-color: #feb93e;
+      border: solid #feb93e;
+    }
+
+    #bocce {
+      text-shadow: 2px 2px 2px #feb93e;
+    }
+
+    #slide7 {
+      background-image: url("darts2.gif");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #slide7button {
+      margin-top: 10px;
+      margin-left: 30px;
+      background-color: #3f824a;
+      border: solid #3f824a;
+    }
+
+    #darts {
+      text-shadow: 2px 2px 2px #3f824a;
     }
 
     .modal-header {
