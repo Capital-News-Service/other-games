@@ -231,9 +231,13 @@
       text-align: center;
     }
 
-    .modal {
-
+    /* .modal-content {
+      background-color: #000;
     }
+
+    .modal-title {
+      color: #fff;
+    } */
 
     .swiper-slide {
       background-color: #000000;
@@ -302,6 +306,10 @@
       opacity: 1;
         }
 
+    buttonx {
+          width: 2%;
+        }
+
     .description {
           padding: 5px;
           position: relative;
@@ -348,9 +356,7 @@
       color: white;
     }
 
-    buttonx {
-      width: 2%;
-    }
+
 
 
   }
