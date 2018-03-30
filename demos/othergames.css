@@ -109,6 +109,11 @@
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     }
 
+    #sports {
+      margin: 20px;
+    }
+
+
     .headline {
       padding: 0px;
       position: relative;
@@ -119,10 +124,6 @@
       text-align: left;*/
     }
 
-
-#belly {
-    font-size: 8vw;
-}
 
     #slide2 {
       background-image: url("images/broomball.gif");
@@ -178,6 +179,7 @@
 
     #belly {
       text-shadow: 2px 2px 2px #ea513f;
+      font-size: 8vw;
     }
 
     #slide5 {
