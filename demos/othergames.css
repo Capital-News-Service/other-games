@@ -71,7 +71,6 @@
         display: block;
     }
 
-
     #intro {
       margin: auto;
       width: 75%;
@@ -120,6 +119,10 @@
       text-align: left;*/
     }
 
+
+#belly {
+    font-size: 8vw;
+}
 
     #slide2 {
       background-image: url("images/broomball.gif");
@@ -326,7 +329,7 @@
             }
 
     h3 {
-      color: #ffffff;
+      color: #fff;
       text-align: center;
       font-size: 2.5vw;
     }
