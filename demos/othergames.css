@@ -331,6 +331,13 @@
       font-size: 2.5vw;
     }
 
+    h4 {
+      color: #000;
+      text-align: center;
+      font-size: 2.5vw;
+    }
+
+
     #aboutpage {
       padding-right: 10%;
       padding-left: 10%;
