@@ -417,6 +417,10 @@
         font-size: 15px
       }
 
+      .modal-title {
+        font-size: 3.5vw;
+      }
+
       /**#vf {
         margin-top: 5%;
         wdith:
