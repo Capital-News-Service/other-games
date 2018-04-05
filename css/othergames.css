@@ -127,7 +127,7 @@
 
 
     #slide2 {
-      background-image: url("images/broomball.gif");
+      background-image: url("../images/broomball.gif");
       height: 100%;
       background-position: center;
       background-repeat: no-repeat;
@@ -147,7 +147,7 @@
 
 
     #slide3 {
-      background-image: url("images/yoga.gif");
+      background-image: url("../images/yoga.gif");
       height: 100%;
       background-position: center;
       background-repeat: no-repeat;
@@ -165,7 +165,7 @@
     }
 
     #slide4 {
-      background-image: url("images/bd.gif");
+      background-image: url("../images/bd.gif");
       height: 100%;
       background-position: center;
       background-repeat: no-repeat;
@@ -184,7 +184,7 @@
     }
 
     #slide5 {
-      background-image: url("images/marbles2.gif");
+      background-image: url("../images/marbles2.gif");
       height: 100%;
       background-position: center;
       background-repeat: no-repeat;
@@ -202,7 +202,7 @@
     }
 
     #slide6 {
-      background-image: url("images/bocce2.gif");
+      background-image: url("../images/bocce2.gif");
       height: 100%;
       background-position: center;
       background-repeat: no-repeat;
@@ -220,7 +220,7 @@
     }
 
     #slide7 {
-      background-image: url("images/darts.gif");
+      background-image: url("../images/darts.gif");
       height: 100%;
       background-position: center;
       background-repeat: no-repeat;
@@ -282,7 +282,7 @@
     }
 
    #front {
-      background: url(images/bb-home.gif) no-repeat center center fixed;
+      background: url(../images/bb-home.gif) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -379,7 +379,7 @@
   }
     @media screen and (max-width: 980px) {
      #front {
-        background: url(images/bb-home.gif) no-repeat center center fixed;
+        background: url(../images/bb-home.gif) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
